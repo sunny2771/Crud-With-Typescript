@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  padding: 50px;
+}
+
+.List {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  width: 600px;
+  height: 60px;
+  margin: auto;
+  padding: 12px;
+  margin-top: 20px;
+}
+.List-header {
+  display: flex;
+  padding-right: 10px;
+  gap: 5px;
+}
+
+.List-header h3 {
+  padding: 10px;
+}
+
+.List-img {
+  width: 4rem;
+  height: 3.8rem;
+  border-radius: 100%;
+  padding: 20px;
+  /* margin-right: 0.5rem; */
+}
+
+.List-note {
+  padding-left: 20px;
+}
+
+.addToList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.inputBox {
+  width: 260px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.inputBox::placeholder {
+  color: gray;
+  font-size: 16px;
+}
+
+.AddToListBtn {
+  width: 280px;
+  background-color: black;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.delete {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 15px;
+  margin-left: 23px;
+  cursor: pointer;
+}
+
+.edit {
+  cursor: pointer;
+  background-color: green;
+  color: wheat;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.inputBoxEdit {
+  width: 85px;
+  padding: 16px 22px;
+  border-radius: 5px;
+  border: 2px solid black;
+  height: 9px;
+  margin-top: 24px;
+}
